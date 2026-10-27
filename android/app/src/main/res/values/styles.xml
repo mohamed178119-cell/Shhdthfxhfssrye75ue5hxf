@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.DarisAcademic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#D97706</item>
+        <item name="colorPrimaryVariant">#B45309</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#0F172A</item>
+        <item name="android:navigationBarColor">#0F172A</item>
+    </style>
+
+    <style name="Theme.DarisAcademic.Fullscreen" parent="Theme.DarisAcademic">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

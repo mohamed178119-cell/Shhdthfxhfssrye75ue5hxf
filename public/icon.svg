@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)" />
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#d97706" stroke-width="6" opacity="0.4" />
+  
+  <!-- Graduation Cap -->
+  <g transform="translate(256, 210)">
+    <!-- Cap top rhombus -->
+    <polygon points="0,-90 190,0 0,90 -190,0" fill="url(#gold)" />
+    <!-- Cap under skullcap -->
+    <path d="M-100,25 L-100,90 C-100,145 100,145 100,90 L100,25 Z" fill="#b45309" />
+    <!-- Tassel ribbon -->
+    <path d="M140,20 L165,110 L150,115 L125,25 Z" fill="#fbbf24" />
+    <!-- Tassel button -->
+    <circle cx="0" cy="0" r="14" fill="#78350f" />
+  </g>
+
+  <!-- Open Book Base -->
+  <g transform="translate(256, 380)">
+    <!-- Book pages -->
+    <path d="M-140,-35 C-70,-55 -20,-35 0,-20 C20,-35 70,-55 140,-35 L140,40 C70,20 20,40 0,55 C-20,40 -70,20 -140,40 Z" fill="#1e293b" stroke="url(#gold)" stroke-width="8" />
+    <!-- Spine bookmark ribbon -->
+    <polygon points="-8,-20 8,-20 8,65 0,55 -8,65" fill="#f59e0b" />
+  </g>
+
+  <!-- Arabic Brand Text -->
+  <text x="256" y="475" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="34" fill="#fbbf24" letter-spacing="2">دارس</text>
+</svg>

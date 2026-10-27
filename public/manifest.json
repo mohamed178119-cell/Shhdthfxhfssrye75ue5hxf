@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "دارس - المساعد الأكاديمي الصارم",
+  "short_name": "دارس",
+  "description": "مساعد دراسي ذكي وصارم يمنع التشتت ويحل المسائل والملخصات الصوتية والمحاضرات",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0f172a",
+  "background_color": "#020617",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
